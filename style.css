@@ -57,7 +57,11 @@ button:hover{
     color: white;
     transition: 1s;
 }
-
+.btn{
+    display:flex;
+    justify-content:center;
+    align-item:center;
+}
 @media only screen and (min-width:480px){
     button{
         align-items:center;
